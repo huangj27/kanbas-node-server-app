@@ -10,9 +10,9 @@ import UserRoutes from "./users/routes.js";
 import session from "express-session";
 
 
-const CONNECTION_STRING = 'mongodb+srv://jessicadanlinghuang:FlTkninHs9a85LQt@cluster0.mqmodrg.mongodb.net/?retryWrites=true&w=majority';
+// const CONNECTION_STRING = 'mongodb+srv://jessicadanlinghuang:FlTkninHs9a85LQt@cluster0.mqmodrg.mongodb.net/?retryWrites=true&w=majority';
 
-// const CONNECTION_STRING = process.env.DB_CONNECTION_STRING  || 'mongodb://127.0.0.1:27017/kanbas'
+const CONNECTION_STRING = process.env.DB_CONNECTION_STRING  || 'mongodb://127.0.0.1:27017/kanbas'
 mongoose.connect(CONNECTION_STRING);
 
 mongoose.connect(CONNECTION_STRING);
