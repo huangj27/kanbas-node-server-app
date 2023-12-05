@@ -1,0 +1,1 @@
+export DB_CONNECTION_STRING='mongodb+srv://jessicadanlinghuang:FlTkninHs9a85LQt@cluster0.mqmodrg.mongodb.net/?retryWrites=true&w=majority'
